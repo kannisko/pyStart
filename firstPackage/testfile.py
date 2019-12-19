@@ -1,2 +1,2 @@
-import test_lib
-print( fromModule("xx"))
+import firstPackage.test_lib
+print( firstPackage.test_lib.fromModule("xx"))
