@@ -1,0 +1,6 @@
+mySet = set()
+mySet.add("a")
+mySet.add("b")
+print(mySet)
+mySet.add("a")
+print(mySet)
