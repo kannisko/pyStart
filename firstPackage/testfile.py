@@ -10,4 +10,11 @@ for i, word in enumerate(token_sequence):
 print(onehot_vectors)
 import pandas as pd
 print(pd.DataFrame(onehot_vectors, columns=vocab))
+
+
+v1 = pd.np.array([1, 2, 3])
+v2 = pd.np.array([2, 3, 4])
+print(v1.dot(v2))
+print((v1 * v2))
+print((v1 * v2).sum())
 print("xx")
